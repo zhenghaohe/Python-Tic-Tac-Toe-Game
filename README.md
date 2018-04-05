@@ -1,12 +1,29 @@
-# Python-Tic-Tac-Toe-Game
-Tic Tac Toe Game with simple AI written in Python.
+# Ticky
 
-To Run, Download file , open in shell as python tictac.py 
+A Tic Tac Toe game, implemented in python, pygame. It includes a unbeatable computer AI. Have a Fun!
 
-Works with usual rules.
+### Require
 
-Randomly decides whether the player goes first or the AI goes first
+You should have `pygame` module installed
 
-The AI checks if any possible move can allow itself to win. Otherwise, it checks if it must block the player’s move. Then the AI simply chooses any available corner space, then the center space, then the side spaces. 
+### Usage
 
-Will update this in the coming days
+```bash
+git clone https://github.com/memoiry/Ticky
+cd Ticky
+python ticky.py
+```
+
+### Demo
+
+<img src="./images/ticky.gif" width="350">
+
+### Minimax Algorithm
+
+The minimax algorithm is a decision rule used for two-player game. The concept of minimax algorithm is to simulate all posible move of both players and then make the best decision.
+
+### Reference
+
+[Tic Tac Toe: Understanding The Minimax Algorithm](http://neverstopbuilding.com/minimax)
+
+[Minimax with Alpha Beta Pruning](http://web.cs.ucla.edu/~rosen/161/notes/alphabeta.html)
